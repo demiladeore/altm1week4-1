@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(209, 192, 255);
+  position: relative;
+}
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 32px;
+}
+section {
+  position: relative;
+  width: 300px;
+  /* padding: 20px; */
+  background-color: white;
+  border-radius: 10px;
+}
+h3 {
+  padding: 6px 12px;
+  background-color: bisque;
+  position: absolute;
+  border-radius: 5px 20px 20px 5px;
+  top: 5px;
+  left: -10px;
+}
+.display-picture {
+  height: 200px;
+  width: 300px;
+  background-color: rgb(144, 142, 148);
+  border-radius: 10px 10px 0 0;
+}
+.product-description {
+  padding: 20px 20px;
+}
+span {
+  font-size: 12px;
+  font-weight: 400;
+}
+h2 {
+  margin: 1rem 0;
+}
+p {
+  margin: 0.5rem 0;
+}
